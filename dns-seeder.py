@@ -6,9 +6,9 @@ coin = ""
 
 # Seed nodes that will be returned to peers
 # Can be IP address as well
-SEED_NODES = [
+NODES = [
     'node1.example.com',
-    'node2.example.com',
+    '255.255.255.0',
     'node3.example.com',
 ]
 
@@ -39,7 +39,7 @@ while True:
     response += b'\x00\x00' # additional RRs
 
     # Add the seed nodes to the response
-    for node in SEED_NODES:
+    for node in NODES:
         # Create a DNS answer record with the node's IP address
         ip_bytes = socket.inet_aton(socket.gethostbyname(node))
         response += b'\xc0\x0c' # pointer to the domain name
