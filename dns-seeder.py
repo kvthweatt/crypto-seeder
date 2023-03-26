@@ -19,7 +19,7 @@ PORT = 0000
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind(('0.0.0.0', PORT))
 
-print(f"DNS Seeder  Copyright (C) 2023 Karac V. Thweatt\nThis software comes with ABSOLUTELY NO WARRANTY.\nThis is free software, and you are welcome to redistribute it\nunder certain conditions.\n\n{coin} seeder initialized.")
+print(f"DNS Seeder  Copyright (C) 2023 Karac V. Thweatt\nThis software comes with ABSOLUTELY NO WARRANTY.\nThis is free software, and you are welcome to\nredistribute it under certain conditions.\n\n{coin} seeder initialized.")
 
 # Respond to DNS queries
 while True:
