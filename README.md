@@ -1,4 +1,4 @@
-# crypto-seeder
+# Crypto Seeder
 
 Host a DNS seed node for any cryptocurrency.
 
