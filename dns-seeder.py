@@ -13,7 +13,7 @@ SEED_NODES = [
 ]
 
 # Define the port to listen on
-PORT = 52202
+PORT = 0000
 
 # Create a UDP socket to listen for queries
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
